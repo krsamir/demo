@@ -1,0 +1,15 @@
+<div *ngFor="let value of data" style="margin-bottom: 30px;">
+    <div class="card">
+        <div style="display: flex; flex-direction: row;">
+            <div style="display: flex; flex-direction: row;flex: 1; height: 50px;">
+                <span>{{value.profilePic}}</span>
+                <p style="margin-left: 5px;">{{value.profileName}}</p>
+            </div>
+            <div style="margin-right: 20px; cursor: pointer;">:</div>
+        </div>
+        <img src={{value.imageSrc}} class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">{{value.description}} </p>
+        </div>
+      </div>
+</div>

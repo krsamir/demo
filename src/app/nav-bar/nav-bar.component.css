@@ -1,0 +1,25 @@
+.bellIcon {
+  font-size: large;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.sidebar1 {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+.sidebar2 {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+@media only screen and (max-width: 720px) {
+  .sidebar {
+    display: none;
+  }
+}
